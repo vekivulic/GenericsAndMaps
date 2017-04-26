@@ -80,11 +80,11 @@ public class StartUp {
         //LAB 5
         //Movie objects in a TreeSet
       
-        Set<Movie> movieSet = new TreeSet<>();
-        movieSet.add(movie3);
-        movieSet.add(movie2);
-        movieSet.add(movie1);
-        movieSet.add(movie4);
+        Set<Movie> movieSet = new TreeSet<>(movieCol);
+//        movieSet.add(movie3);
+//        movieSet.add(movie2);
+//        movieSet.add(movie1);
+//        movieSet.add(movie4);
 
         //duplicates are removed by looping through the set and 
         //outputting the toString() value to the console.
